@@ -19,12 +19,12 @@ public class BoardModule {
 
 
     @Provides
-    Camera buildCamera(){
+    static Camera buildCamera(){
         return new Camera();
     }
 
     @Provides
-    Storage buildStorage(){
+    static Storage buildStorage(){
         return new Storage();
     }
 
