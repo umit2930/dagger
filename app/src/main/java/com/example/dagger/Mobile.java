@@ -19,6 +19,13 @@ public class Mobile {
     }
 
 
+    @Inject
+    public void setGuard(Guard guard) {
+
+        guard.setGuardForMobile(this);
+
+    }
+
     void run(){
 
         Log.i(TAG, "run: mobile is started...");

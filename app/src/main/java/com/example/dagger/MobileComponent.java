@@ -10,6 +10,9 @@ public interface MobileComponent {
 
     Mobile buildMobile();
 
+    void injectField(MainActivity mainActivity);
+
+
 //    void injectField(MainActivity mainActivity);
 //
 //
