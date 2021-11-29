@@ -5,7 +5,7 @@ import dagger.BindsInstance;
 import dagger.Component;
 import dagger.Subcomponent;
 
-@Component
+@Component(modules = BoardModule.class)
 public interface MobileComponent {
 
     Mobile buildMobile();

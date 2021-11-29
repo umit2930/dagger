@@ -19,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
         MobileComponent mobileComponent=DaggerMobileComponent.create();
         mobileComponent.injectField(this);
         mobile.run();
+        mobile.board.storage.runStorage();
     }
 }
